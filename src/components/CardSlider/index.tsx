@@ -16,10 +16,10 @@ const Slider = () => {
                 <div>{card.bankName || '********'}</div>
               </div>
               <div className="card-input-container">
-                <div className="card-input">{card.number?.slice(0, 4)}</div>
-                <div className="card-input">{card.number?.slice(4, 8)}</div>
-                <div className="card-input">{card.number?.slice(8, 12)}</div>
                 <div className="card-input">{card.number?.slice(12, 16)}</div>
+                <div className="card-input">{card.number?.slice(8, 12)}</div>
+                <div className="card-input">{card.number?.slice(4, 8)}</div>
+                <div className="card-input">{card.number?.slice(0, 4)}</div>
               </div>
             </div>
           );
