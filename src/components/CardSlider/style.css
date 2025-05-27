@@ -1,0 +1,43 @@
+.slider-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  direction: rtl;
+  scrollbar-width: thin;
+}
+
+.card-container {
+  width: 400px;
+  aspect-ratio: 1.8;
+  background-color: #dedede;
+  box-shadow: #b3b3b3 3px 3px 7px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0; 
+}
+
+.card-header {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+
+.card-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px 50px 20px;
+}
+
+.card-input {
+  width: 70px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
